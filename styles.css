@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #ffffff;
+}
+
+a{
+    text-decoration-line: none;
+    background-color: #38B6FF;
+}
+
+
+header{
+    width: 100%;
+    background-color: #38B6FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 24px;
+}
+.fotos{
+    padding-top: 3.5vh;
+    background-color: #38B6FF;
+    display: flex;
+    justify-content: space-between;
+}
+.jpd{
+    padding-top: 20vh;
+    height: 350px;
+    width: 350px;
+    background-color: #38B6FF;
+}
+
+.pefoto{
+    display: flex;
+    flex-direction: column;
+}
+
+.btheader{
+    background-color: #38B6FF;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 8vh;
+    display: flex;
+}
+.btdoheader{
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #38B6FF;
+}
+
+
+
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.topico{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 200px;
+    margin: 150px;
+}
+
+.topicofooter{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 200px;
+    margin: 150px;
+    background-color: #38B6FF;
+}
+
+h1{
+    
+    font-weight: lighter;
+    text-decoration-line: underline;
+    text-decoration-color: #38B6FF;
+
+}
+
+h2{
+    font-weight: lighter;
+    width: 60vh;
+}
+
+.jpbranco{
+    margin-left: 50vh;
+    width: 250px;
+}
+
+
+li{
+    margin: 15px;
+}
+
+.footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 150px;
+    padding-left: 200px;
+}
+
+footer{
+    background-color: #38B6FF;
+    width: 100%;
+}
+
+input{
+    display: flex;
+    justify-content: center;
+    background-color: #9fdcff;
+    padding: 10px;
+    border: none;
+    width: 500px;
+    height: 20px;
+    border-radius: 15px;
+}
+
+.botaosubmit{
+    width: 200px;
+    border-radius: 15px;
+    height: 50px;
+    background-color: #9fdcff;
+    justify-content: center ;
+    
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #38B6FF;
+}
+
+.azul{
+    background-color: #38B6FF;
+}
+
+.text-container {
+    display: none;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .text-container.visible {
+    display: block;
+  }
